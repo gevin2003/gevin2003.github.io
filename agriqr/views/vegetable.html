@@ -1,197 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vegetables</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vegetables</title>
 
-    <!-- =================================== styles + css modules =================================== -->
+        <!-- =================================== styles + css modules =================================== -->
 
-    <link rel="stylesheet" href="../public/css/Vegetable.css" />
-    <link rel="stylesheet" href="../public/css/swiper-bundle.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-
-    <!-- =================================== fonts =================================== -->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smooch&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- =================================== remixicons =================================== -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.min.css"
-    />
-
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-  </head>
-
-  <body>
-    <header class="header">
-      <div class="navlogo">
-        <img
-          src="../public/img/AgriGenZlogo-removebg-preview.png"
-          alt="nav-logo"
+        <link rel="stylesheet" href="../public/css/Vegetable.css" />
+        <link rel="stylesheet" href="../public/css/swiper-bundle.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         />
-      </div>
-      <input type="checkbox" id="check" />
-      <label for="check" class="icons">
-        <i class="bx bx-menu" id="menu-icon"></i>
-        <i class="bx bx-x" id="close-icon"></i>
-      </label>
-      <nav class="navbar">
-        <a href="index.html" style="--i: 0">Home</a>
-        <a href="#" style="--i: 1">Products</a>
 
-        <a href="#" style="--i: 3">FAQ</a>
-        <a href="#" style="--i: 4">About Us</a>
-        <a href="#" style="--i: 5">Contact Us</a>
-      </nav>
-    </header>
-    <div class="Veg">Vegetables</div>
-    <div class="vegcontain">
-      <div class="Vegimgdiv">
-        <div class="vegimgcon">
-          <div class="img-des">Bell Pepper</div>
-          <img src="../public/img/Picture3.png" class="Vegimg" />
+        <!-- =================================== fonts =================================== -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smooch&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- =================================== remixicons =================================== -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.min.css"
+        />
+
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="navlogo">
+                <img
+                    src="../public/img/AgriGenZlogo-removebg-preview.png"
+                    alt="nav-logo"
+                />
+            </div>
+            <input type="checkbox" id="check" />
+            <label for="check" class="icons">
+                <i class="bx bx-menu" id="menu-icon"></i>
+                <i class="bx bx-x" id="close-icon"></i>
+            </label>
+            <nav class="navbar">
+                <a href="index.html" style="--i: 0">Home</a>
+                <a href="#" style="--i: 1">Products</a>
+
+                <a href="#" style="--i: 3">FAQ</a>
+                <a href="#" style="--i: 4">About Us</a>
+                <a href="#" style="--i: 5">Contact Us</a>
+            </nav>
+        </header>
+        <div class="Veg">Vegetables</div>
+        <div class="vegcontain">
+            <div class="Vegimgdiv">
+                <div class="vegimgcon">
+                    <div class="img-des">Bell Pepper</div>
+                    <img src="../public/img/Picture3.png" class="Vegimg" />
+                </div>
+                <div class="card-container">
+                    <!-- Card 1 -->
+                    <div class="card">
+                        <h3>Common Name/Scientific Name</h3>
+                        <p>Bell Pepper/Capsicum annuum</p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="card">
+                        <h3>Overall Grade</h3>
+                        <p>B2</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="card">
+                        <h3>Shelf Life</h3>
+                        <p>
+                            14 days after Production <br />
+                            Production Date: 22/09/2024
+                        </p>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="card">
+                        <h3>Nutritional Content Per 100g</h3>
+                        <p>
+                            Energy 27 kcal (110 kJ) <br />Carbohydrates 4.64 g
+                            <br />Sugars 2.4 g<br />
+                            Dietary fiber 1.8 g <br />Fat 0.13 g <br />Protein
+                            0.9 g <br />Vitamins and minerals <br />
+                            Vitamins <br />Vitamin A equiv. beta-Carotene 17%
+                            157 μg 15% 1624 μg <br />Thiamine (B1) 5% 0.055 mg
+                            <br />Riboflavin (B2) 11% 0.142 mg <br />Niacin (B3)
+                            6% 1 mg <br />Pantothenic acid (B5) 6% 0.317 mg
+                            <br />Vitamin B6 18% 0.3 mg <br />Folate (B9) 12% 47
+                            μg <br />Vitamin C 158% 142 mg <br />Vitamin E 11%
+                            1.58 mg <br />Vitamin K 6% 7.4 μg<br />
+                            Minerals <br />Calcium 0% 6 mg <br />Iron 2% 0.35 mg
+                            <br />Magnesium 3% 11 mg <br />Manganese 5% 0.122 mg
+                            <br />Phosphorus 2% 27 mg <br />Potassium 7% 213 mg
+                            <br />Sodium 0% 3 mg <br />Zinc 2% 0.2 mg
+                            <br />Other constituents <br />
+                            Water 92 g
+                        </p>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="card">
+                        <h3>Fertilizers Used</h3>
+                        <p>Epsom Salt and Miracle-Gro Mix</p>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="card">
+                        <h3>Ripening/Shelf Life Extending Agents</h3>
+                        <p>No</p>
+                    </div>
+                    <!-- Card 7 -->
+                    <div class="card">
+                        <h3>GMO/Non-GMO (Genetically Modified Organism)</h3>
+                        <p>Non-GMO</p>
+                    </div>
+                    <!-- Card 8 -->
+                    <div class="card">
+                        <h3>Country Of Origin</h3>
+                        <p>Sri Lanka</p>
+                    </div>
+                    <!-- Card 9 -->
+                    <div class="card">
+                        <h3>Grower's Details</h3>
+                        <p>N/A</p>
+                    </div>
+                    <!-- Card 10 -->
+                    <div class="card">
+                        <h3>Shelf-Life Extending Tips</h3>
+                        <p>
+                            Fridge: 14 days (whole) 7 days (sliced)<br />
+
+                            Room temperature on the counter: 5 days<br />
+
+                            In freezer: 6 months - 1 year
+                        </p>
+                    </div>
+                    <!-- Card 11 -->
+                    <div class="card">
+                        <h3>SKU</h3>
+                        <p>BP226798</p>
+                    </div>
+                    <!-- Card 12 -->
+                    <div class="card">
+                        <h3>Logistic History</h3>
+                        <p>Delivered within 24 hours after the production</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card-container">
-          <!-- Card 1 -->
-          <div class="card">
-            <h3>Card 1</h3>
-            <p>This is a description for card 1.</p>
-          </div>
-          <!-- Card 2 -->
-          <div class="card">
-            <h3>Card 2</h3>
-            <p>This is a description for card 2.</p>
-          </div>
-          <!-- Card 3 -->
-          <div class="card">
-            <h3>Card 3</h3>
-            <p>This is a description for card 3.</p>
-          </div>
-          <!-- Card 4 -->
-          <div class="card">
-            <h3>Card 4</h3>
-            <p>This is a description for card 4.</p>
-          </div>
-          <!-- Card 5 -->
-          <div class="card">
-            <h3>Card 5</h3>
-            <p>This is a description for card 5.</p>
-          </div>
-          <!-- Card 6 -->
-          <div class="card">
-            <h3>Card 6</h3>
-            <p>This is a description for card 6.</p>
-          </div>
-          <!-- Card 7 -->
-          <div class="card">
-            <h3>Card 7</h3>
-            <p>This is a description for card 7.</p>
-          </div>
-          <!-- Card 8 -->
-          <div class="card">
-            <h3>Card 8</h3>
-            <p>This is a description for card 8.</p>
-          </div>
-          <!-- Card 9 -->
-          <div class="card">
-            <h3>Card 9</h3>
-            <p>This is a description for card 9.</p>
-          </div>
-          <!-- Card 10 -->
-          <div class="card">
-            <h3>Card 10</h3>
-            <p>This is a description for card 10.</p>
-          </div>
-          <!-- Card 11 -->
-          <div class="card">
-            <h3>Card 11</h3>
-            <p>This is a description for card 11.</p>
-          </div>
-          <!-- Card 12 -->
-          <div class="card">
-            <h3>Card 12</h3>
-            <p>This is a description for card 12.</p>
-          </div>
+
+        <div class="footer">
+            <div class="footer-content">
+                <div>
+                    <img
+                        src="../public/img/Picture2.jpg"
+                        width="400px"
+                        alt=""
+                    />
+                </div>
+                <p>
+                    Agri GenZ is a student-led initiative by the Biotechnology
+                    degree program, to introduce A Level students in the
+                    Bio-science stream and prospective Biotechnology students to
+                    the subject. We will be hosting a seminar session and a
+                    practical demonstration session for them to fully immerse in
+                    the field of Agricultural Biotechnology.
+                </p>
+                <ul class="socials">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy; <a href="#">AgriGenZ</a></p>
+                <div class="footer-menu">
+                    <ul class="f-menu">
+                        <a href="#" style="--i: 0">Home</a>
+                        <a href="#timeline" style="--i: 1">Products</a>
+                        <!-- <a href="Ideathon.html" style="--i: 2">FAQ</a> -->
+                        <a href="#FAQ" style="--i: 3">FAQ</a>
+                        <a href="#about us" style="--i: 4">About Us</a>
+                        <a href="#contact us" style="--i: 5">Contact Us</a>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <div class="footer">
-      <div class="footer-content">
-        <div>
-          <img src="../public/img/Picture2.jpg" width="400px" alt="" />
-        </div>
-        <p>
-          Agri GenZ is a student-led initiative by the Biotechnology degree
-          program, to introduce A Level students in the Bio-science stream and
-          prospective Biotechnology students to the subject. We will be hosting
-          a seminar session and a practical demonstration session for them to
-          fully immerse in the field of Agricultural Biotechnology.
-        </p>
-        <ul class="socials">
-          <li>
-            <a href="#"><i class="fa fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-google-plus"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-youtube"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-linkedin-square"></i></a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-bottom">
-        <p>copyright &copy; <a href="#">AgriGenZ</a></p>
-        <div class="footer-menu">
-          <ul class="f-menu">
-            <a href="#" style="--i: 0">Home</a>
-            <a href="#timeline" style="--i: 1">Products</a>
-            <!-- <a href="Ideathon.html" style="--i: 2">FAQ</a> -->
-            <a href="#FAQ" style="--i: 3">FAQ</a>
-            <a href="#about us" style="--i: 4">About Us</a>
-            <a href="#contact us" style="--i: 5">Contact Us</a>
-          </ul>
-        </div>
-      </div>
-    </div>
+        <!-- =================================== -->
 
-    <!-- =================================== -->
+        <!-- =================================== main + scrollrevealjs + swiperjs =================================== -->
+        <!-- =================================== main + scrollrevealjs + swiperjs =================================== -->
+        <script src="../public/js/swiper-bundle.min.js"></script>
+        <script>
+            let swiperPartner = new Swiper(".partners-swiper-container", {
+                direction: "horizontal",
+                loop: true,
 
-    <!-- =================================== main + scrollrevealjs + swiperjs =================================== -->
-    <!-- =================================== main + scrollrevealjs + swiperjs =================================== -->
-    <script src="../public/js/swiper-bundle.min.js"></script>
-    <script>
-      let swiperPartner = new Swiper(".partners-swiper-container", {
-        direction: "horizontal",
-        loop: true,
+                autoplay: {
+                    delay: 1500, // Delay between transitions in milliseconds
+                    disableOnInteraction: false, // Continue autoplay even when user interacts with swiper
+                },
 
-        autoplay: {
-          delay: 1500, // Delay between transitions in milliseconds
-          disableOnInteraction: false, // Continue autoplay even when user interacts with swiper
-        },
-
-        slidesPerView: 4,
-        spaceBetween: 10,
-      });
-    </script>
-  </body>
+                slidesPerView: 4,
+                spaceBetween: 10,
+            });
+        </script>
+    </body>
 </html>
