@@ -161,6 +161,7 @@ body {
   font-family: Roboto Slab;
   font-weight: 500;
   font-size: 5vw;
+  display: flex;
 }
 
 /* .vegcontain {
@@ -492,6 +493,16 @@ th {
 @media screen and (max-width: 992px) {
   .card {
     width: calc(50% - 20px); /* Adjust to 2 columns */
+  }
+
+  .Vegimgdiv {
+    flex-direction: column;
+  }
+  .vegimgcon,
+  .img-des {
+    width: 100%;
+    text-align: center;
+    margin: auto;
   }
 }
 

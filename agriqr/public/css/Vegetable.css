@@ -493,6 +493,15 @@ th {
   .card {
     width: calc(50% - 20px); /* Adjust to 2 columns */
   }
+  .Vegimgdiv {
+    flex-direction: column;
+  }
+  .vegimgcon,
+  .img-des {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
 }
 
 /* For mobile devices (1 column) */
